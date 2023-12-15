@@ -1,4 +1,4 @@
-name: Unit Testing
+name: Unit Testing (internal)
 
 on:
   push:
@@ -21,4 +21,4 @@ jobs:
           go-version: 1.21
 
       - name: Run unit tests
-        run: sh hack/test.sh
+        run: sh hack/internal_test.sh
