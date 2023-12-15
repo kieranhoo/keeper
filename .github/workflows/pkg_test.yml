@@ -21,4 +21,4 @@ jobs:
           go-version: 1.21
 
       - name: Run unit tests
-        run: sh pkg_test.sh
+        run: sh hack/pkg_test.sh
